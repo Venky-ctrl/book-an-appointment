@@ -1,0 +1,102 @@
+
+.doctorprofile-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+.doctorprofile-back {
+  color: #3876e7;
+  text-decoration: underline;
+  margin-bottom: 16px;
+  display: inline-block;
+  font-size: 16px;
+}
+.doctorprofile-card {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 9px;
+  border: 1px solid #e2e2e2;
+  padding: 26px;
+  margin-bottom: 20px;
+  gap: 30px;
+}
+.doctorprofile-img {
+  width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-right: 10px;
+}
+.doctorprofile-name { font-size: 26px; font-weight: bold; }
+.doctorprofile-special { font-size: 17px; color: #3160c9; margin-bottom: 7px; }
+.doctorprofile-rating {
+  color: #eab308; font-size: 18px; margin-right: 14px; vertical-align: middle;
+}
+.doctorprofile-experience { font-size: 16px; color: #595959; }
+.doctorprofile-bio { color: #444; margin: 8px 0; }
+
+.doctorprofile-availability {
+  background: #fff;
+  border-radius: 7px;
+  padding: 22px;
+  margin-bottom: 22px;
+}
+.doctorprofile-availability-title { font-size: 18px; font-weight: 600; margin-bottom: 9px; }
+.doctorprofile-slot-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.doctorprofile-slot {
+  background: #e6f7fa;
+  color: #0B7285;
+  border: 1px solid #bcd9e6;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 15px;
+}
+.doctorprofile-book-btn {
+  margin-left: 16px;
+  margin-top: 0;
+  padding: 9px 21px;
+  background: #266bdb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.doctorprofile-book-btn:hover { background: #174bb1; }
+.doctorprofile-no-availability {
+  padding: 16px;
+  text-align: center;
+  background: #fff6f6;
+  color: #cf3628;
+  font-weight: 600;
+  border: 1px solid #eed5d0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.doctorprofile-confirmation {
+  margin: 16px 0;
+  background: #e7f9e9;
+  border: 1px solid #b6ebbe;
+  border-radius: 7px;
+  padding: 16px;
+  color: #1a7130;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+}
+.doctorprofile-notfound {
+  color: #b00020;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 44px 0 9px 0;
+}
+@media (max-width: 600px) {
+  .doctorprofile-container { padding: 10px; }
+  .doctorprofile-card { flex-direction: column; align-items: stretch; gap: 14px; padding: 14px;}
+}

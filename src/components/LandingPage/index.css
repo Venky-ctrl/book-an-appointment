@@ -1,0 +1,52 @@
+.landing-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+.landing-title {
+  text-align: center;
+  color: #1d3557;
+  font-size: 36px;
+  margin-bottom: 36px;
+  font-weight: bold;
+}
+.landing-search {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  box-sizing: border-box;
+  margin-bottom: 36px;
+}
+.landing-doctor-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 650px) {
+  .landing-doctor-grid { grid-template-columns: 1fr 1fr; }
+}
+.landing-doctor-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid #e2e2e2;
+  border-radius: 7px;
+  background: #fff;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s;
+}
+.landing-doctor-card:hover {
+  box-shadow: 0 0 6px 2px #f1f7ff;
+  border-color: #4169e1;
+}
+.landing-doctor-img { width: 62px; height: 62px; border-radius: 50%; object-fit: cover; }
+.landing-doctor-name { font-size: 20px; font-weight: 600; }
+.landing-doctor-special { font-size: 16px; color: #3762bc; }
+.landing-doctor-available { color: #2e8b57; font-size: 16px; font-weight: 500;}
+.landing-doctor-unavailable { color: #c42626; font-size: 16px; font-weight: 500;}
+.landing-no-result { color: #999; font-size: 17px; text-align: center; margin-top: 36px; }
+
