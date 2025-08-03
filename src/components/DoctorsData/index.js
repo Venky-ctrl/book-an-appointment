@@ -83,20 +83,6 @@ export const doctorsData = [
     experience: "15 years"
   },
   {
-    id: "d7",
-    name: "Dr. Emily Parker",
-    specialization: "Neurologist",
-    profileImageUrl: "https://randomuser.me/api/portraits/women/65.jpg",
-    availableSlots: [
-      "2025-08-05T09:00:00",
-      "2025-08-06T13:00:00",
-      "2025-08-07T15:00:00"
-    ],
-    bio: "Expert in neurological disorders with over 12 years of experience.",
-    rating: 4.7,
-    experience: "12 years"
-  },
-  {
     id: "d8",
     name: "Dr. James Rivera",
     specialization: "Oncologist",
